@@ -9,8 +9,15 @@
             "email": "james.s.goodman@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "silverstripe/framework": "^4.0"
+    },
     "extra": {
         "installer-name": "date-range-field"
+    },
+    "autoload": {
+    "psr-4": {
+        "DeptInternalAffairsNZ\\SilverStripe\\": "code/"
     }
+},
 }
